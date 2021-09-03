@@ -1,0 +1,27 @@
+const mongoose = require('mongoose');
+
+const city = new mongoose.Schema({
+    city: {type: String, default: ''},
+    location: {type: String, default: ''},
+    score: {type: Number, default: 0},
+    carts_total: {type: Number, default: 0},
+    carts_home: {type: Number, default: 0},
+    wood_per_hour: {type: Number, default: 0},
+    wood: {type: Number, default: 0},
+    wood_storage: {type: Number, default: 0},
+    stone_per_hour: {type: Number, default: 0},
+    stone: {type: Number, default: 0},
+    stone_storage: {type: Number, default: 0},
+    iron_per_hour: {type: Number, default: 0},
+    iron: {type: Number, default: 0},
+    iron_storage: {type: Number, default: 0},
+    food_per_hour: {type: Number, default: 0},
+    food: {type: Number, default: 0},
+    food_storage: {type: Number, default: 0},
+    ships_total: {type: Number, default: 0},
+    ships_home: {type: Number, default: 0},
+    Academy: {type: String, default: ''},
+    Sorc_tower: {type: String, default: ''},
+    reference: {type: String, default: ''},
+    id: {type: Number, default: 0},
+});

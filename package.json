@@ -1,0 +1,32 @@
+{
+  "name": "cotg-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackson DaSilva",
+  "license": "Unlicense",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongo-sanitize": "^1.0.0",
+    "mongodb": "^3.0.6",
+    "mongoose": "^5.0.14",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "validator": "^10.2.0",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
